@@ -21,6 +21,7 @@
 ##'   been dropped}
 ##'   \item{tipdata}{a data frame with a single column, where the number of species have
 ##'    been modified to account for dropped tips}
+##' @export
 ##' @examples
 ##'   data(skinktree)
 ##'   data(skinkdiversity)

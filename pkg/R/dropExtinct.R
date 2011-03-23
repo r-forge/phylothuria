@@ -12,6 +12,7 @@
 ##'   or \code{phylo4d} objects, or \code{phylo})
 ##' @param tol tolerance in rounding error to avoid taxa to be pruned because of rounding error.
 ##' @return a phylogenetic tree as a \code{phylo4(d)} or a \code{phylo} object.
+##' @export
 ##' @examples
 ##'   rTr <- birthdeath.tree(b=.4, d=.2, time=15)
 ##'   rTr <- as(rTr, "phylo4")

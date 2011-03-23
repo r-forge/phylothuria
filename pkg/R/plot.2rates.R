@@ -30,6 +30,7 @@
 ##' clade simulated under the \sQuote{new} rate}
 ##' \item{nSpBaseRate}{a list containing the number of species in the
 ##' clade simulated under the \sQuote{basal} rate}
+##' @export
 ##' @author François Michonneau
 ##' @note This function is fairly slow. See the vignette for some
 ##' examples on how to use this function.
@@ -79,6 +80,7 @@ ltt.2rates <- function(trReplicates, mrca.newRate) {
 ##' @param colNew color for the lineages simulated under the \sQuote{new} rate.
 ##' @param ... additional graphical parameters.
 ##' @return Nothing. Function to be used for its side effect.
+##' @export
 ##' @author François Michonneau
 ##' @note see vignettes for examples.
 plot.2rates <- function(listRates, new.plot=TRUE, method=c(1,2), colBase="blue", colNew="red", ...) {

@@ -8,6 +8,7 @@
 ##' @param ageCut the age at which to cut the tree
 ##' @param classResults class of the returned object, can be either \code{phylo} or \code{phylo4}
 ##' @return a phylogenetic tree as a \code{phylo4} (default) or a \code{phylo} object.
+##' @export
 ##' @example
 ##'   data(skinktree)
 ##'   skinktree$node.label <- NULL # to avoid warning
